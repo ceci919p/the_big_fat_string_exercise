@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1200px) auto;
+}
+
+main > section {
+  grid-column: 2/3;
+  padding: 1rem;
+  margin: 1rem;
+  padding-left: 3rem;
+}
+
+header {
+  background-color: #e7e6e1;
+  text-align: center;
+  padding: 1rem 1.5rem;
+}
+
+#options,
+label,
+output,
+input,
+#submit,
+h1 {
+  font-family: "Open Sans", sans-serif;
+  grid-column: 2/3;
+}
+
+h1 {
+  font-weight: bolder;
+  grid-column: 2/3;
+}
+
+input,
+output {
+  width: 700px;
+}
+
+label {
+  display: block;
+}
+
+input,
+label {
+  margin: 0.4rem 0;
+}

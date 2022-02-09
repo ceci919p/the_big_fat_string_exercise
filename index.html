@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>The Big Fat String Exercise</title>
+  </head>
+  <body>
+    <header>
+      <h1>THE BIG FAT STRING EXERCISE</h1>
+    </header>
+
+    <main>
+      <section>
+        <form>
+          <label for="input">Input:</label>
+          <input type="text" id="input" name="input" /><br /><br />
+          <select name="options" id="options">
+            <option value="fname">
+              if input is a first name: Make the first character in a name
+              uppercase, and the rest lowercase"
+            </option>
+            <option value="findfname">
+              If input is a full name: Find the first name
+            </option>
+            <option value="findlengthfname">
+              If input is a full name: Find the length of the first name
+            </option>
+            <option value="findmnamestartend">
+              If input is a full name: Find the middle name start and end
+              position, and the middle name itself in a full name string
+            </option>
+            <option value="filename">
+              If input is a filename: Check if a filename is .png or .jpg
+            </option>
+            <option value="password">
+              If input is a password: Hide a password with the correct number of
+              *s
+            </option>
+            <option value="thirdcharuppercase">
+              With any input: Make the third character uppercase
+            </option>
+            <option value="spacehyphonuppercase">
+              With any input: Make a character uppercase, if it follows a space
+              or a hyphen
+            </option></select
+          ><br /><br />
+          <label for="output">Output:</label>
+          <input type="text" id="output" name="output" /><br /><br />
+        </form>
+        <button id="submit">Generate output</button>
+      </section>
+    </main>
+  </body>
+  <script src="script.js"></script>
+</html>
